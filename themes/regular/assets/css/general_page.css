@@ -1,0 +1,106 @@
+#particles-js canvas{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background: #fa6d7e;
+  background: -webkit-linear-gradient(45deg, #fa6d7e, #f98c6b) !important;
+  background: -moz- oldlinear-gradient(45deg, #fa6d7e, #f98c6b) !important;
+  background: -o-linear-gradient(45deg, #fa6d7e, #f98c6b) !important;
+  background: linear-gradient(45deg, #fa6d7e, #f98c6b) !important;
+}
+
+nav.header-top {
+  height: 70px;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+nav.header-top.navbar-light .navbar-nav .nav-link {
+  padding: 0px;
+  color: #333357!important;
+  font-size: 14px !important;
+}
+
+
+nav.header-top .link {
+  padding-left: 20px;
+  padding-right: 10px;
+  color: #333!important;
+}
+
+.header-top .sign-up{
+  padding: 2px 15px;
+}
+
+.btn-outline-primary.sign-up{
+  border-color: #ff6f61!important;
+  color: #ff6f61 !important;
+  z-index: 9999;
+}
+
+a.btn-outline-primary.sign-up:hover{
+  background: #fff!important;
+  color: #333357!important;
+  z-index: 9999;
+}
+
+
+nav.header-top {
+  border-color: rgba(34,34,34,.05);
+  background-color: #fff;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+  font-family: Catamaran,Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+nav.header-top .link{
+  padding-left: 20px!important;
+  padding-right: 10px!important;
+  color: #333357!important;
+  font-size: 14px !important;
+}
+
+nav.header-top .navbar-nav .nav-link {
+  padding: 0px;
+  color: #333357!important;
+}
+
+nav.header-top .site-logo, nav.header-top .site-logo-white{
+  max-height: 50px;
+}
+
+nav.header-top.shrink .btn-outline-primary.sign-up{
+  border-color: #ff6f61!important;
+  color: #333357 !important;
+}
+
+nav.header-top a.btn-outline-primary.sign-up:hover{
+  background: #ff6f61!important;
+  color: #fff!important;
+}
+
+
+@media (max-width: 576px){
+
+  nav.header-top .site-logo, nav.header-top .site-logo-white{
+    max-width: 150px;
+  }
+  section.banner .content{
+    text-align: center;
+  }
+  section.banner .content h1{
+    font-size: 30px;
+  }
+
+  .header-top .navbar-nav.list-inline{
+    display: none;
+  }
+
+  nav.header-top .link{
+    margin-left: auto;
+  }
+
+}

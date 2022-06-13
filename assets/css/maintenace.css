@@ -1,0 +1,54 @@
+#particles-js canvas{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background: #fa6d7e;
+  background: -webkit-linear-gradient(45deg, #fa6d7e, #f98c6b) !important;
+  background: -moz- oldlinear-gradient(45deg, #fa6d7e, #f98c6b) !important;
+  background: -o-linear-gradient(45deg, #fa6d7e, #f98c6b) !important;
+  background: linear-gradient(45deg, #fa6d7e, #f98c6b) !important;
+}
+
+/*section banner*/
+section.banner{
+  z-index: 1;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: #fff;
+  
+}
+
+section.banner .content{
+  text-align: center;
+}
+
+section.banner .content h1{
+  font-size: 50px;
+  font-weight: 300;
+}
+
+section.banner .content .desc{
+  font-size: 18px;
+}
+
+section.banner .mobile-device .image{
+  width: 50%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+@media (min-width: 992px){
+  section.banner {
+    /*height: 100vh;*/
+  }
+}
+
